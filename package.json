@@ -1,0 +1,33 @@
+{
+  "name": "stdlint-config-bibliocircle",
+  "version": "0.0.1",
+  "description": "Stdlint rules used by bibliocircle.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepal/stdlint-config-bibliocircle"
+  },
+  "engines": {
+    "node": ">14"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "npm test",
+    "release": "standard-version"
+  },
+  "author": "Deepal Jayasekara <dpjayasekara@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/lint": "^12.1.1",
+    "@commitlint/load": "^12.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.3.0"
+  }
+}
